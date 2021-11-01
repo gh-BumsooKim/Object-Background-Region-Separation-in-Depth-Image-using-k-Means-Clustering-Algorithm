@@ -1,9 +1,9 @@
 def nd_6_sigma(img: np.ndarray, **kwargs) -> np.ndarray:
     for key, value in kwargs.items():
         if key == "sigma":
-            _s_level = value
+            _s_level: int = value
         else:
-            _s_level = 4 # default sigma level
+            _s_level: int = 4 # default sigma level
             
     _s_yield: float = 0.0
     
@@ -29,7 +29,7 @@ def nd_6_sigma(img: np.ndarray, **kwargs) -> np.ndarray:
                 print(e)
                 print(i, j, img[i][j][0])
 
-    _hist_b = _hist < 1905            
+    _hist_b = _hist < _min            
     _id = 0
     for i in range(len(_hist), 0, -1):
         if _hist_b[i-1] == False:
