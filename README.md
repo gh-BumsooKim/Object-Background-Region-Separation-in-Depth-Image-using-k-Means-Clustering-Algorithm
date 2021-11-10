@@ -12,7 +12,7 @@ Paper : **Object-Background Region Separation in Depth Image using k-Means Clust
 ## Result
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/67869508/139522369-34bf1669-5df2-48ad-b1ce-c8d76fed7c0a.png">
+  <img src="https://user-images.githubusercontent.com/67869508/141066629-d00cd55e-865c-450c-a2d1-a0381ea73a59.png">
 </p>
 
 ## Depth Pre-processing
